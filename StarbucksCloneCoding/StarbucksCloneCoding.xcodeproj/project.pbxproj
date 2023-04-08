@@ -15,6 +15,9 @@
 		4253E1DA29E15E0D003BBA68 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253E1D929E15E0D003BBA68 /* MainTabView.swift */; };
 		4253E1DE29E16944003BBA68 /* MenuSuggestionSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253E1DD29E16944003BBA68 /* MenuSuggestionSectionView.swift */; };
 		4253E1E029E169BB003BBA68 /* CoffeeMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253E1DF29E169BB003BBA68 /* CoffeeMenu.swift */; };
+		4253E1E329E19C50003BBA68 /* Beverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253E1E229E19C50003BBA68 /* Beverage.swift */; };
+		4253E1E529E19C77003BBA68 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253E1E429E19C77003BBA68 /* Banner.swift */; };
+		4253E1E729E19C9D003BBA68 /* WhatsNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253E1E629E19C9D003BBA68 /* WhatsNew.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		4253E1D929E15E0D003BBA68 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		4253E1DD29E16944003BBA68 /* MenuSuggestionSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSuggestionSectionView.swift; sourceTree = "<group>"; };
 		4253E1DF29E169BB003BBA68 /* CoffeeMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoffeeMenu.swift; sourceTree = "<group>"; };
+		4253E1E229E19C50003BBA68 /* Beverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beverage.swift; sourceTree = "<group>"; };
+		4253E1E429E19C77003BBA68 /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
+		4253E1E629E19C9D003BBA68 /* WhatsNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNew.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,7 @@
 				4253E1C929E1589E003BBA68 /* StarbucksCloneCodingApp.swift */,
 				4253E1CB29E1589E003BBA68 /* ContentView.swift */,
 				4253E1DF29E169BB003BBA68 /* CoffeeMenu.swift */,
+				4253E1E129E19C23003BBA68 /* Models */,
 				4253E1DC29E1692D003BBA68 /* Scenes */,
 				4253E1CD29E158A0003BBA68 /* Assets.xcassets */,
 				4253E1CF29E158A0003BBA68 /* Preview Content */,
@@ -93,6 +100,16 @@
 				4253E1DD29E16944003BBA68 /* MenuSuggestionSectionView.swift */,
 			);
 			path = Scenes;
+			sourceTree = "<group>";
+		};
+		4253E1E129E19C23003BBA68 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4253E1E229E19C50003BBA68 /* Beverage.swift */,
+				4253E1E429E19C77003BBA68 /* Banner.swift */,
+				4253E1E629E19C9D003BBA68 /* WhatsNew.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,10 +184,13 @@
 			files = (
 				4253E1D829E15DAB003BBA68 /* Tab.swift in Sources */,
 				4253E1CC29E1589E003BBA68 /* ContentView.swift in Sources */,
+				4253E1E729E19C9D003BBA68 /* WhatsNew.swift in Sources */,
 				4253E1E029E169BB003BBA68 /* CoffeeMenu.swift in Sources */,
 				4253E1CA29E1589E003BBA68 /* StarbucksCloneCodingApp.swift in Sources */,
 				4253E1DE29E16944003BBA68 /* MenuSuggestionSectionView.swift in Sources */,
+				4253E1E529E19C77003BBA68 /* Banner.swift in Sources */,
 				4253E1DA29E15E0D003BBA68 /* MainTabView.swift in Sources */,
+				4253E1E329E19C50003BBA68 /* Beverage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
