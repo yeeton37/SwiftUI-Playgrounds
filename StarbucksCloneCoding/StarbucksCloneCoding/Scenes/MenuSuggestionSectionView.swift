@@ -11,7 +11,7 @@ struct MenuSuggestionSectionView: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             LazyHStack {
-                ForEach(CoffeeMenu.sample) { menu in
+                ForEach(Beverage.recommend) { menu in
                     MenuSuggestionItemView(coffeeMenu: menu)
                 }
             }
@@ -20,15 +20,18 @@ struct MenuSuggestionSectionView: View {
 }
 
 struct MenuSuggestionItemView: View {
-    let coffeeMenu: CoffeeMenu
+    let coffeeMenu: Beverage
     
     var body: some View {
         VStack {
-            coffeeMenu.image
-                .resizable()
-                .clipShape(Circle())
-                .frame(width: 130.0, height: 130.0)
-            Text(coffeeMenu.name)
+            if let image = coffeeMenu.thumbnailImage {
+                image
+                    .resizable()
+                    .clipShape(Circle())
+                    .frame(width: 130.0, height: 130.0)
+            }
+            
+            Text(coffeeMenu.koreanName)
                 .font(.callout)
         }
     }
