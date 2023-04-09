@@ -5,7 +5,7 @@
 //  Created by 이예은 on 2023/04/08.
 //
 
-import UIKit
+import SwiftUI
 
 struct Banner {
   
@@ -15,7 +15,7 @@ struct Banner {
   }
   
   let id = UUID()
-  let thumbnailImage: UIImage?
+  let thumbnailImage: Image?
 }
 
 extension Banner.MainBanner {
@@ -23,11 +23,11 @@ extension Banner.MainBanner {
   var item: Banner {
     switch self {
     case .findYourTaste:
-      return .init(thumbnailImage: UIImage(named: "FindYourTaste"))
+      return .init(thumbnailImage: Image("FindYourTaste"))
     case .stayChillStayPlayful:
-      return .init(thumbnailImage: UIImage(named: "StayChillStayPlayful"))
+      return .init(thumbnailImage: Image("StayChillStayPlayful"))
     case .summerBeverage:
-      return .init(thumbnailImage: UIImage(named: "SummerBaeverage"))
+      return .init(thumbnailImage: Image("SummerBaeverage"))
     }
   }
 }
