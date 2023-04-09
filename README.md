@@ -1,2 +1,2 @@
 # SwiftUI-Playgrounds
-SwiftUI 뽀개기!
+SwiftUI를 학습하는 공간입니다.
