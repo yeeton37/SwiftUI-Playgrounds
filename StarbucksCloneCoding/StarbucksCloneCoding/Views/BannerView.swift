@@ -27,7 +27,7 @@ struct BannerItemView: View {
         if let image = banner.item.thumbnailImage {
             image
                 .resizable()
-                .frame(width: UIScreen.main.bounds.width - 40, height: UIScreen.main.bounds.width - 80)
+                .frame(width: UIScreen.main.bounds.width - 40, height: UIScreen.main.bounds.width - 120)
                 .cornerRadius(10)
         }
     }

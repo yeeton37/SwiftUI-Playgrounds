@@ -18,6 +18,8 @@
 		4253E1E529E19C77003BBA68 /* Banner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253E1E429E19C77003BBA68 /* Banner.swift */; };
 		4253E1E729E19C9D003BBA68 /* WhatsNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253E1E629E19C9D003BBA68 /* WhatsNew.swift */; };
 		4253E1E929E1A2DE003BBA68 /* EventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253E1E829E1A2DE003BBA68 /* EventView.swift */; };
+		4253E1EB29E1ADDC003BBA68 /* BannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253E1EA29E1ADDC003BBA68 /* BannerView.swift */; };
+		4253E1EE29E1B22D003BBA68 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4253E1ED29E1B22D003BBA68 /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		4253E1E429E19C77003BBA68 /* Banner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Banner.swift; sourceTree = "<group>"; };
 		4253E1E629E19C9D003BBA68 /* WhatsNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsNew.swift; sourceTree = "<group>"; };
 		4253E1E829E1A2DE003BBA68 /* EventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventView.swift; sourceTree = "<group>"; };
+		4253E1EA29E1ADDC003BBA68 /* BannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerView.swift; sourceTree = "<group>"; };
+		4253E1ED29E1B22D003BBA68 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,7 @@
 				4253E1C929E1589E003BBA68 /* StarbucksCloneCodingApp.swift */,
 				4253E1CB29E1589E003BBA68 /* ContentView.swift */,
 				4253E1E129E19C23003BBA68 /* Models */,
+				4253E1EC29E1B17B003BBA68 /* Views */,
 				4253E1DC29E1692D003BBA68 /* Scenes */,
 				4253E1CD29E158A0003BBA68 /* Assets.xcassets */,
 				4253E1CF29E158A0003BBA68 /* Preview Content */,
@@ -96,8 +101,6 @@
 			isa = PBXGroup;
 			children = (
 				4253E1DB29E168FB003BBA68 /* Tab */,
-				4253E1DD29E16944003BBA68 /* MenuSuggestionSectionView.swift */,
-				4253E1E829E1A2DE003BBA68 /* EventView.swift */,
 			);
 			path = Scenes;
 			sourceTree = "<group>";
@@ -110,6 +113,17 @@
 				4253E1E629E19C9D003BBA68 /* WhatsNew.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		4253E1EC29E1B17B003BBA68 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4253E1DD29E16944003BBA68 /* MenuSuggestionSectionView.swift */,
+				4253E1E829E1A2DE003BBA68 /* EventView.swift */,
+				4253E1EA29E1ADDC003BBA68 /* BannerView.swift */,
+				4253E1ED29E1B22D003BBA68 /* HomeView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -182,10 +196,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4253E1EB29E1ADDC003BBA68 /* BannerView.swift in Sources */,
 				4253E1D829E15DAB003BBA68 /* Tab.swift in Sources */,
 				4253E1CC29E1589E003BBA68 /* ContentView.swift in Sources */,
 				4253E1E729E19C9D003BBA68 /* WhatsNew.swift in Sources */,
 				4253E1E929E1A2DE003BBA68 /* EventView.swift in Sources */,
+				4253E1EE29E1B22D003BBA68 /* HomeView.swift in Sources */,
 				4253E1CA29E1589E003BBA68 /* StarbucksCloneCodingApp.swift in Sources */,
 				4253E1DE29E16944003BBA68 /* MenuSuggestionSectionView.swift in Sources */,
 				4253E1E529E19C77003BBA68 /* Banner.swift in Sources */,
