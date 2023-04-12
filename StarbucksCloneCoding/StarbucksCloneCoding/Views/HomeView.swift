@@ -13,8 +13,10 @@ struct HomeView: View {
             VStack {
                 HStack {
                     Image("starbucks logo")
+                        .renderingMode(.original)
                         .resizable()
                         .frame(width: 30, height: 30)
+                        .padding(.leading, 20.03)
                     Spacer()
                     Image("marker")
                         .resizable()

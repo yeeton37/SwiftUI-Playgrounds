@@ -10,7 +10,7 @@ import SwiftUI
 struct MenuSuggestionSectionView: View {
     var body: some View {
         ScrollView(.horizontal, showsIndicators: false) {
-            LazyHStack(spacing: 20) {
+            LazyHStack(spacing: 16) {
                 ForEach(Beverage.recommend) { menu in
                     MenuSuggestionItemView(coffeeMenu: menu)
                 }
@@ -30,7 +30,6 @@ struct MenuSuggestionItemView: View {
                     .resizable()
                     .clipShape(Circle())
                     .frame(height: 130.0)
-                    .clipped()
             }
             
             Text(coffeeMenu.koreanName)
